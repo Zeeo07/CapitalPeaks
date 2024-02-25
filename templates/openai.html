@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Chatbot</title>
+</head>
+<body>
+    <div class = "container" style="background-color: #d0eccc;
+    height: 800px;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: 0 auto;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    position: relative; /* Set position to relative for absolute positioning */
+    top: 100px;">
+    <h1 style="text-align: center; position: relative; top: 20px; ">Chat Box</h1>
+        <div style="display: flex; justify-content: center; position: relative; top: -150px; align-items: center; height: 100vh;">
+            <div style="width: 70%; max-width: 600px; border: 5px solid #fff; padding: 50px; border-radius: 10px; text-align: center;">
+        
+                <form method="post" action="{{ url_for('chatbot')}}">
+                    <label for="message">Message:</label>
+                    <input type="text" id="message" name="message" required>
+                    <button type="submit">Send</button>
+            </form>
+        </div>
+        </div>
+    </div>
+  </body>
+</html>
+

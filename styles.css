@@ -1,0 +1,65 @@
+body{
+      background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA4wMBIgACEQEDEQH/xAAYAAADAQEAAAAAAAAAAAAAAAAAAQIDB//EACAQAQEBAAMBAQEBAQEBAAAAAAABEQISITFBUWFxIoH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A49owT6YGM8EpgWFZ4fwAUnhY0kHKYDKwusa9RgMrLnwcY26/7TnEGWCSteun0BkXKNepXjoM80dfWk4i8fQZWBd46XSgj1UV1o6UCwrF2J9As/oyDlRPQFAFAgWABpxMVAOfVzESaqQFUpPVSHIBfB+hUgFmfD6rk8GAmcYd/wAORfWfwGUnql9fTvGAiQWNJE4CCsX1HUGfUTi06jqDPAvPSoJ66m8Yr8TQTy4f8RmK5T+JnGwCyjFei+AkDSAcVSJ4+LgHIc8EOeguHBxnipgFgxR4CIuf+vpzjt+NJ/wGfHjipF54JAT1GNLPRgIwpx/xdgBHUrMaJsBnhyLzBmAzufqbJ+NM+pwGdiWlRQRYmxpYm8QZ2JsaXxNgI/8AoVkAEcqZNXOIGfGXTis8BXGVWHw+H4BT6rCk98aSAUi+Iw4B+YJBLP1XH2aA/BFfSn8BODFYMBOCw6PwEVNaVPIGdSqlgJvqbF/pcgZ2Jq6iglKqQFgGgERpERpAVIvjPUxU+grM+FnqtG++AfHjb+tZueRHHlVztb4B+/ow5PfSzygOrSTIzk9acYByHgOAC/TAJGeHS0CqOaqmwEYVi7s+fP4m5ARU1dviLQRU1aL9BN+JXUX6BeAaALj5Fy+M4qfQaStOLGL4g2kE4+2plVaCl8b4z4noNPh/b/ieC4Bw8IwVDKUaCqRDQFSLU0FVFv6LNv0rMArfEf8AV8vjLldAVFp2UfgI5VG6q31F8gDUlythTld+AoAAUqpjPjGkBUVCL9BrIrWfZUoNIcROR9gaTli5WPG6e/6DbQznL/T0GmickaWg17C2M9K8gVy5SJ7pt0tmfAX2F5M+xaC91nyLtdF9A+3ieVhWlQTy/qLVWp/QK5S+fBS5XwB2Cf8A1/IQLl8PWfG5FQFyq4cmeq4+A2lGs9Gg07YrWQ7e+g3nLwbGXYSg141fZl28LsDbTnJj2PQaWp3aUpWgvS31FpaC7StRaXf+AvS7J72loHbqe1GjYCOVsqe2q5/GewFJo0bAPaE6QCRUULAKRcqS0F2lakeArTQV5A13wdmfYrQazkc5MZypzmDfR2Ydz7A37l3Zdi30GvcWstw92gq0tn9Z8r6QNOw1l9VIC7yT2AwCtpK8GAkH8p2fwCA60AZ6ABckbYAB6NIAcFAAr8SAB/hAAaoQBUFAAjAAhSAFPqoABjSAA/wADn1X6AAAAP/Z");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0;
+      height: 100vh;
+
+
+  }
+
+
+/**body::before {
+content: "";
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+background-color: rgba(0, 0, 0, 0.883);
+}**/
+
+.logo{
+    border-radius: 50%;
+    width: 50%;
+
+}
+
+.container{
+    position: relative;
+}
+
+.con_img{
+
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+.start{
+    
+    position:absolute;
+    background-color: rgba(46, 46, 45, 0.749);
+    border: 2px solid slategray;
+    padding: 10px 20px;
+    bottom: 10%;
+    margin-left: 40%;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+
+   .start:hover {
+    background-color: #d0eccc80; /* Change hyperlink color on hover */
+}
+
